@@ -1,6 +1,6 @@
-# WorkerMan 3.x 手册
-本手册只适用于WorkerMan3.x版本
+# WebWorker 0.x 手册
+本手册只适用于WebWorker0.x版本
 
-Workerman主页:[www.workerman.net](http://www.workerman.net)
+WebWorker主页:[webworker.xtgxiso.com](http://webworker.xtgxiso.com)
 
-GatewayWorker项目手册：http://www.workerman.net/gatewaydoc/
+webWorker 项目：https://github.com/xtgxiso/WebWorker
