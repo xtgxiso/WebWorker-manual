@@ -3,4 +3,7 @@
 
 WebWorker主页:[webworker.xtgxiso.com](http://webworker.xtgxiso.com)
 
-webWorker 项目：https://github.com/xtgxiso/WebWorker
+WebWorker 项目：https://github.com/xtgxiso/WebWorker
+
+建议在读此文档前先了解[workerman](http://www.workerman.net/)
+
