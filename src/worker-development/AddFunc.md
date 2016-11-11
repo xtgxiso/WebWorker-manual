@@ -29,20 +29,20 @@ $app = new WebWorker\App("http://0.0.0.0:1215");
 //应用级中间件--对所有访问启用ip限制访问
 $app->AddFunc("/",function() use($app){
     if ( $_SERVER['REMOTE_ADDR'] != '127.0.0.1' ) {
-        $app->server_send("禁止访问");
+        $app->ServerHtml("禁止访问");
         return true;//返回ture,中断执行后面的路由或中间件，直接返回给浏览器
     }   
 });
 
 //注册路由
 $app->HandleFunc("/",function() use($app){
-    $app->server_send("Hello World");
+    $app->ServerHtml("Hello World");
 });
 
 
 //注册路由hello
 $app->HandleFunc("/xtgxiso",function() use($app){
-    $app->server_send("xtgxiso");
+    $app->ServerHtml("xtgxiso");
 });
 
 

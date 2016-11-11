@@ -27,8 +27,8 @@
    * [方法](worker-development/method.md)
        * [HandleFunc](worker-development/HandleFunc.md)
        * [AddFunc](worker-development/AddFunc.md)
-       * [server_json](worker-development/server_json.md)
-       * [server_send](worker-development/server_send.md)
+       * [ServerJson](worker-development/ServerJson.md)
+       * [ServerHtml](worker-development/ServerHtml.md)
 * [Mredis类](worker-development/Mredis.md)
 * [Mmysqli类](worker-development/Mmysqli.md)
 

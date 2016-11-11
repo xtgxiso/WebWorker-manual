@@ -28,7 +28,7 @@ $app = new WebWorker\App("http://0.0.0.0:1215");
 
 //注册路由hello
 $app->HandleFunc("/hello",function() use($app){
-    $app->server_send("Hello World WorkerMan WebWorker!");
+    $app->ServerHtml("Hello World WorkerMan WebWorker!");
 });
 
 
@@ -51,7 +51,7 @@ $app->HandleFunc("/hello",function() use($app){
 //注册路由hello
 $app->HandleFunc("/hello",function() use($app){
     $app->txt .= "<br/>hello-2";
-    $app->server_send($app->txt);
+    $app->ServerHtml($app->txt);
 });
 
 
@@ -69,14 +69,14 @@ $app = new WebWorker\App("http://0.0.0.0:1215");
 //注册路由hello
 $app->HandleFunc("/hello",function() use($app){
     if ( rand(1,10) > 5 ){
-	$app->server_send("中断路由");
+	$app->ServerHtml("中断路由");
 	return true;
     }
 });
 
 //注册路由hello
 $app->HandleFunc("/hello",function() use($app){
-    $app->server_send($app->server_send("路由执行到最后"));
+    $app->ServerHtml($app->server_send("路由执行到最后"));
 });
 
 

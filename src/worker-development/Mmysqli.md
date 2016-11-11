@@ -53,7 +53,7 @@ $config["db"]["charset"] = "utf8";
 $app->HandleFunc("/",function() use($app,$config){
     $db = Mdb::getInstance($config["db"]);
     $list = $db->query("select * from test")->fetch_all(MYSQLI_ASSOC);
-    $app->server_json($list);
+    $app->ServerJson($list);
 });
 
 

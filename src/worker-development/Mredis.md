@@ -42,7 +42,7 @@ $config["redis"]["db"] = 1;
 //获取redis的值
 $app->HandleFunc("/",function() use($app,$config){
      $redis = Mredis::getInstance($config["redis"]);
-     $app->server_send($redis->get("xtgxiso"));
+     $app->ServerHtml($redis->get("xtgxiso"));
 });
 
 
