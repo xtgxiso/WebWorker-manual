@@ -9,13 +9,13 @@ WebWorker
         │   ├── libs              // 存放类目录
         │   ├── models            // 存放数据模型目录
         │   └── start.php         // demo1应用入口文件
+	├── Statistics            // 监控应用目录
     WebWorker                     // webworker框架目录
         ├── Libs                  // 存放框架类
         │     ├── Mdb.php         // 用于实例化Mmysqli类
         │     ├── Mmysqli.php     // mysqli类封装
         │     ├── Mredis.php      // redis类封装
         ├── App.php               // 框架核心
-    Statistics                    // 监控应用目录
     benchmark                     // 性能测试目录相关
     workerman-for-win             // workerman的win版本
     workerman                     // workerman的linux版本
