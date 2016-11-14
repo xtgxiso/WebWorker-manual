@@ -7,22 +7,7 @@
 use Workerman\Worker;
 use Workerman\Protocols\Http;
 
-//判断系统
-if (strtoupper(substr(PHP_OS, 0, 3)) === 'WIN') {
-    require_once __DIR__.'/workerman-for-win/Autoloader.php';
-}else {
-    require_once __DIR__.'/workerman/Autoloader.php';
-    // 检查扩展
-    if(!extension_loaded('pcntl'))
-    {
-        exit("Please install pcntl extension. See http://doc3.workerman.net/install/install.html\n");
-    }
-
-    if(!extension_loaded('posix'))
-    {
-        exit("Please install posix extension. See http://doc3.workerman.net/install/install.html\n");
-    }
-}
+require_once 'vendor/autoload.php';
 
 $app = new WebWorker\App("http://0.0.0.0:1215");
 

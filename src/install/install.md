@@ -1,3 +1,7 @@
 # 安装
-WebWorker实际上没有安装脚本，如果你的PHP环境已经装好，只需要把WebWorker源代码或者demo下载下来即可运行。
+WebWorker支持composer的方式安装，如果你的composer环境已经装好，只需运行如下命令即可。
+
+```
+composer require xtgxiso/webworker
+```
 
