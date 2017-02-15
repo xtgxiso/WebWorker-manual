@@ -29,6 +29,8 @@
        * [AddFunc](worker-development/AddFunc.md)
        * [ServerJson](worker-development/ServerJson.md)
        * [ServerHtml](worker-development/ServerHtml.md)
+       * [Header](worker-development/Header.md)
+       * [Setcookie](worker-development/Setcookie.md)
 * [Mredis类](worker-development/Mredis.md)
 * [Mmysqli类](worker-development/Mmysqli.md)
 
